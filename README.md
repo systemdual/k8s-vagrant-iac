@@ -14,10 +14,10 @@ vagrant plugin install vagrant-vbguest
 
 Nos situamos en el directorio del Vagrantfile y ejecutamos:
 ```
-chmod +x init-cluster.sh
+chmod +x init.sh
 ```
 ```
-./init-cluster.sh
+./init.sh
 ```
 
 ## Resultado:
