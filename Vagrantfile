@@ -2,7 +2,7 @@
 # vi:set ft=ruby sw=2 ts=2 sts=2:
 
 NUM_MASTER_NODE = 1 # numero de nodos master
-NUM_WORKER_NODE = 3 # numero de nodos worker
+NUM_WORKER_NODE = 2 # numero de nodos worker
 
 IP_NW = "192.168.56."
 MASTER_IP_START = 1
