@@ -2,6 +2,27 @@
 Este laboratorio automatiza y hace flexible la generación/configuración de un cluster kubernetes por medio de Vagrant y un set de scripts bash
 
 ## Requisitos:
+
+Procesador: 4 núcleos
+RAM: 8-16 GB
+SO Ubuntu 18.04/20.04/22.04:
+```
+azureuser@darkrai:~$ cat /etc/os-release
+NAME="Ubuntu"
+VERSION="20.04.4 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.4 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+azureuser@darkrai:~$
+```
+
 Virtualbox y Vagrant:
 ```
 apt install virtualbox vagrant -y
